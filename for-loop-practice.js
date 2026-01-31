@@ -25,11 +25,11 @@ console.log("total:", sum);
 let sumEven = 0;
 for (let i = 51; i <= 85; i++) {
   if (i % 2 !== 1) {
-    sum += i;
+    sumEven += i;
     console.log(i);
   }
 }
-console.log("total:", sum);
+console.log("total:", sumEven);
 
 let num = 9;
 for (let i = 1; i <= 10; i++) {
